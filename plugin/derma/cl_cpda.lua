@@ -39,7 +39,6 @@ local Button1 = vgui.Create( "DButton", frame )
 	Button1:SetPos( 20 , 50 )				
 	Button1:SetSize( 100, 50 )				
 	Button1.DoClick = function()			
-	local Frame1 = vgui.Create("")
 		print( "Button was clicked!" )
 end
 

@@ -13,10 +13,8 @@ ITEM.description = "Una PDA utilizada por la Alianza.";
 
 -- Called when a player uses the item.
 function ITEM:OnUse(player, itemEntity)
-		Clockwork.datastream:Start(player, "DrawPDA", PLUGIN.combineObjectives);
-	end
+	Clockwork.datastream:Start(player, "DrawPDA", PLUGIN.combineObjectives);
 end;
-
 
 -- Called when a player drops the item.
 function ITEM:OnDrop(player, position) return false end;

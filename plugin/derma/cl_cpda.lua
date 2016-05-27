@@ -19,11 +19,11 @@ function PANEL:Init()
 end;
 
 surface.CreateFont("FrameDP", {
-font = "Couture",
-size = 30,
-weight = 500,
-antialias = true,
-shadow = false
+	font = "Couture",
+	size = 30,
+	weight = 500,
+	antialias = true,
+	shadow = false
 } )
 
 function PANEL:vgui.create("DFrame")

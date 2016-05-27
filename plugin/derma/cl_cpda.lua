@@ -16,23 +16,28 @@ function PANEL:Init()
 	end;
 end;
 
-local frame = vgui.Create( "DFrame" ) -- Create a container for everything
-frame:SetSize( 800, 600 )
-frame:SetTitle( "Combine PDA" )
-frame:Center()
-frame:MakePopup()
+surface.CreateFont("FrameDP", {
+font = "Couture",
+size = 30,
+weight = 500,
+antialias = true,
+shadow = false
+} )
 
-local window = vgui.Create( "DHTML", frame ) -- Our DHTML window
-window:SetSize( 750, 500 )
-window:Center()
+function PANEL:vgui.create("Menu", panel)
+	self:SetSize(380, 720);
+	self:SetPos(center);
+	self:SetBackgroudColor(255,255,255);
+	self:SetTitle("Combine PDA");
+end
 
-local ctrls = vgui.Create( "DHTMLControls", frame ) -- Navigation controls
-ctrls:SetWide( 750 )
-ctrls:SetPos( 25, 40 )
-ctrls:SetHTML( window ) -- Links the controls to the DHTML window
-ctrls.AddressBar:SetText( "http://treballdereserca.xenomorfius.xyz" ) -- Address bar isn't updated automatically
-
-window:MoveBelow( ctrls ) -- Align the window to sit below the controls
-window:OpenURL( "http://treballdereserca.xenomorfius.xyz" )
+local Button1 = vgui.Create( "DButton" )	
+	Button1:SetFont( "FrameDP" )		
+	Button1:SetText = ("")
+	Button1:SetPos( 20 , 50 )				
+	Button1:SetSize( 100, 50 )				
+	Button1.DoClick = function()			
+	local Frame1 = vgui.Create("")
+end
 
 

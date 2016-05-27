@@ -7,5 +7,7 @@ COMMAND.flags = CMD_DEFAULT;
 -- Called when the command has been run.
 function COMMAND:OnRun(player, arguments)
 	if (Schema:PlayerIsCombine(player)) then
+end
+end
 
 COMMAND:Register();

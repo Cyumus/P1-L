@@ -26,7 +26,7 @@ antialias = true,
 shadow = false
 } )
 
-function PANEL:vgui.create("Menu", panel)
+function PANEL:vgui.create("DFrame", panel)
 	self:SetSize(380, 720);
 	self:SetPos(center);
 	self:SetBackgroudColor(255,255,255);

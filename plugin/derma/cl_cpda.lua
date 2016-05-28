@@ -14,7 +14,7 @@ function PANEL:Init()
 end;
 
 surface.CreateFont("FrameDP", {
-	font = "Couture",
+	font = "Arial",
 	size = 30,
 	weight = 500,
 	antialias = true,
@@ -36,5 +36,3 @@ local Button1 = vgui.Create( "DButton", frame )
 	Button1.DoClick = function()			
 		print( "Button was clicked!" )
 end
-
-

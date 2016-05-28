@@ -9,7 +9,7 @@ ITEM.access = "3";
 ITEM.category = "Tecnologia";
 
 -- Called when a player uses the item.
-function ITEM:OnUse(player, itemEntity)
+function ITEM:OnDrop(player, itemEntity)
 	local trace = player:GetEyeTraceNoCursor();
 	
 	if (trace.HitPos:Distance( player:GetShootPos() ) <= 192) then

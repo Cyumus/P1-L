@@ -49,11 +49,8 @@ end;
 
 -- Called when the item should be setup.
 function ITEM:OnUse(player, itemEntity)
-	if ITEM.uniqueID = "cw_utcpda" then
-		Clockwork.datastream:Start(player, "upda", entity);
 	if ITEM.uniqueID = "cw_cpcpda"  then
 	Clockwork.datastream:Start(player, "cpda", entity);
-end
 end
 end;
 

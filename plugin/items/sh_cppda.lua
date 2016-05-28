@@ -10,7 +10,7 @@ ITEM.model = "models/props_combine/combine_intmonitor003.mdl";
 ITEM.weight = 0;
 ITEM.business = false;
 ITEM.description = "Una PDA utilizada por la Alianza.";
-ITEM.uniqueid = "cw_cpcpda"
+ITEM.uniqueid = "cw_cpcpda";
 
 -- Called when a player uses the item.
 function ITEM:OnUse(player, itemEntity)

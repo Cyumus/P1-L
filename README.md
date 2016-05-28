@@ -1,2 +1,2 @@
-# vehetah
-Proyecto Gitano, hecho por rumanos, planificado por payos, acabo por ninios
+# P1-L
+Proyecto 1 - LUA

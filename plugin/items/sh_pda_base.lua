@@ -5,7 +5,7 @@
 ITEM = Clockwork.item:New(nil, true);
 ITEM.name = "PDA Base";
 ITEM.weight = 0.1;
-ITEM.access = "3";
+ITEM.access = "4";
 ITEM.category = "Tecnologia";
 
 -- Called when a player uses the item.

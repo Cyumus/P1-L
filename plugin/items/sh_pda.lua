@@ -1,11 +1,11 @@
 --[[
-	© 2012 CloudSixteen.com do not share, re-distribute or modify
+	Â© 2012 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
 ITEM = Clockwork.item:New();
 ITEM.name = "PDA Combine";
-ITEM.cost = 100;
+ITEM.cost = 0;
 ITEM.model = "models/props_combine/combine_intmonitor003.mdl";
 ITEM.weight = 0;
 ITEM.business = false;

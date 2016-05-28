@@ -3,10 +3,6 @@ local Clockwork = Clockwork;
 
 local PANEL = {}
 
-Clockwork.datastream:Hook("DrawPDA", function(dataob))
-end
-
-
 function PANEL:Init()
   self:SetBackgroundBlur(true);
 	self:SetDeleteOnClose(false);

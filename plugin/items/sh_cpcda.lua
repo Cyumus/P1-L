@@ -3,7 +3,7 @@
 	without permission of its author (kurozael@gmail.com).
 --]]
 
-ITEM = Clockwork.item:New(pda_base);
+ITEM = Clockwork.item:New("pda_base");
 ITEM.name = "PDA Combine";
 ITEM.cost = 0;
 ITEM.model = "models/props_combine/combine_intmonitor003.mdl";

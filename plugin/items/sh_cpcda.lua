@@ -14,7 +14,7 @@ ITEM.uniqueID = "cw_cpcpda";
 
 -- Called when a player uses the item.
 function ITEM:OnUse(player, itemEntity)
-	Clockwork.datastream:Start(player, "cpda", PLUGIN.combineObjectives);
+	Clockwork.datastream:Start(player, "cpda", entity);
 end;
 
 -- Called when a player drops the item.

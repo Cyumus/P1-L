@@ -2,4 +2,5 @@
 
 local PLUGIN = PLUGIN;
 
-Clockwork.datastream:Hook("DrawPDA", function(dataob)
+Clockwork.datastream:Hook("DrawPDA", function(dataob))
+  end

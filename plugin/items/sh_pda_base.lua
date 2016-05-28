@@ -18,7 +18,7 @@ function ITEM:OnUse(player, itemEntity)
 		Clockwork.player:GiveProperty(player, entity);
 		
 		entity:SetModel(self.model);
-		entity:SetBook(self.uniqueID);
+		entity:SetPda(self.uniqueID);
 		entity:SetPos(trace.HitPos);
 		entity:Spawn();
 		

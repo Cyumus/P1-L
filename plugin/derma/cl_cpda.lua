@@ -1,7 +1,4 @@
-local PLUGIN = PLUGIN;
-local Clockwork = Clockwork;
-
-local PANEL = {}
+local PANEL = {};
 
 function PANEL:Init()
   self:SetBackgroundBlur(true);
